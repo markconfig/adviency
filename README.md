@@ -1,2 +1,2 @@
-# adviency
-Una aplicación creada 24 veces 
+# Adviency
+Una aplicación de lista de deceos de regalo, creada 24 veces
