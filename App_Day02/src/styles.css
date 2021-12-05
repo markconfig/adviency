@@ -1,4 +1,45 @@
-.App {
-  font-family: sans-serif;
+body {
+  background-image: url("./assets/images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+}
+
+
+
+.container{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgb(235, 29, 7) 0px 0px 0px 3px, rgb(255, 255, 255) 0px 0px 0px 6px,rgb(35, 72, 194) 0px 0px 0px 9px, rgb(73, 175, 4) 0px 0px 0px 12px;
+}
+
+h1{
+  margin: 1px;
+  text-align: justify;
+  font-size: 3rem;
+  font-family: "Sacramento", cursive;
+  margin-top: 5px;
+  margin-left: 5px;
+
+}
+
+.container li{
+  text-align: justify;
+  font-family: fantasy;
+  list-style-type: none;
+  margin-top: 4px;
+  font-size: 1.5rem;
 }
