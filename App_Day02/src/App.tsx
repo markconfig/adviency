@@ -10,7 +10,8 @@ export default function App() {
       <ul>
         {gifts.map((gift, id) => (
           <li key={id}>{gift.name}</li>
-        ))}
+        ))
+        }
       </ul>
     </div>
   );
